@@ -7,7 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionDuration: {
+        "2000": "2000ms",
+      },
+      transitionTimingFunction: {
+        "ease-out": "ease-out",
+      },
+    },
   },
   plugins: [],
 };
