@@ -66,11 +66,20 @@ export default function Slider({
 
       // 所有其他幻灯片在非动画期间都保持在屏幕下方，等待滑入
       return "absolute inset-0 w-full h-full object-cover bg-black transform translate-y-full";
+
+      // bug
+      // return `absolute inset-0 w-full h-full object-cover transition-transform duration-2000 ease-out bg-black  ${
+      //   index === currentSlide
+      //     ? "transform translate-y-0" // 当前幻灯片显示时，固定在位置
+      //     : index < currentSlide
+      //     ? "transform -translate-y-full" // 前一张幻灯片滑出屏幕上方
+      //     : "transform translate-y-full" // 下一张幻灯片从下方滑入
+      // }`;
     }
   };
 
   return (
-    <section className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden">
       {images.map((src, index) => (
         <div
           key={index}
@@ -87,6 +96,6 @@ export default function Slider({
           )}
         </div>
       ))}
-    </section>
+    </div>
   );
 }

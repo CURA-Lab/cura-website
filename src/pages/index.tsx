@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "../components/Slider";
+import EarningMode from "@/components/EarningMode";
 
 export default function Home() {
   return (
@@ -83,18 +84,21 @@ export default function Home() {
               <Slider
                 images={["/images/dappdes1_1.jpg", "/images/dappdes1_2.jpg"]}
                 transitionType="fade"
-                interval={2000}
+                interval={5000}
               />,
               <Slider
                 images={["/images/dappdes2_1.jpg"]}
                 transitionType="fade"
-                interval={2000}
+                interval={5000}
               />,
             ]}
             transitionType="slide"
             direction="up"
-            interval={3000}
+            interval={8000}
           />
+        </section>
+        <section id="earningmode">
+          <EarningMode />
         </section>
       </div>
     </>
