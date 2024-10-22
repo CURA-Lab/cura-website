@@ -89,7 +89,7 @@ const CurveElement = ({
   );
 };
 
-export default function FourthSection() {
+export default function EarningMode() {
   const [imageHeight, setImageHeight] = useState(0);
   const [imageWidth, setImageWidth] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(100); // 默认设置为100，避免SSR时出错
