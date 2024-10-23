@@ -85,7 +85,7 @@ const IconSE = () => {
 
 export default function AppFeature() {
   return (
-    <div className="relative h-screen bg-gray-900 text-white">
+    <div className="relative h-[380vh] bg-gray-900 text-white">
       {/* 标题 */}
       <img
         id="background-image"
@@ -188,7 +188,7 @@ export default function AppFeature() {
               circleColor="bg-[#282637]"
               title="Shop & Earn"
               description="Earn experience points (EXP) from daily walks and redeem them for pet supplies at unbeatable prices, making shopping easy and affordable."
-              shapedes="w-[100%] aspect-[2/1]"
+              shapedes="w-[100%] aspect-[3/1]"
             />
           </div>
         </div>

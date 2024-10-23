@@ -3,6 +3,7 @@ import Image from "next/image";
 import Slider from "../components/Slider";
 import EarningMode from "@/components/EarningMode";
 import AppFeature from "@/components/AppFeature";
+import ProductFeatures from "@/components/ProductFeatures";
 
 export default function Home() {
   return (
@@ -103,6 +104,9 @@ export default function Home() {
         </section>
         <section id="appfeature">
           <AppFeature />
+        </section>
+        <section id="productfeature">
+          <ProductFeatures />
         </section>
       </div>
     </>
