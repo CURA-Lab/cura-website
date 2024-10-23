@@ -115,7 +115,7 @@ export default function EarningMode() {
   }, []);
 
   return (
-    <div className="relative h-[200vh] w-full overflow-hidden">
+    <div className="relative h-[150vh] bg-[#0f132d] w-full overflow-hidden">
       {/* Large image exceeding h-full */}
       <img
         id="background-image"

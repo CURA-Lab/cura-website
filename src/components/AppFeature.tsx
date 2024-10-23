@@ -85,7 +85,7 @@ const IconSE = () => {
 
 export default function AppFeature() {
   return (
-    <div className="relative h-[380vh] bg-gray-900 text-white">
+    <div className="relative h-[380vh] bg-[#0f132d] text-white">
       {/* 标题 */}
       <img
         id="background-image"
