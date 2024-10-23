@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductFeatures() {
   return (
-    <div className="py-16 bg-[#0f132d] h-[400vh] pointer-events-none">
+    <div className="py-16 bg-[#0f132d] h-[270vh] pointer-events-none">
       <div className="w-full mb-8">
         <img
           src="/images/prod_feature.jpg" // 这里放标题的图片路径

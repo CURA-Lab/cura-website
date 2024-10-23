@@ -4,6 +4,8 @@ import Slider from "../components/Slider";
 import EarningMode from "@/components/EarningMode";
 import AppFeature from "@/components/AppFeature";
 import ProductFeatures from "@/components/ProductFeatures";
+import Milestone from "@/components/Milestone";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +14,7 @@ export default function Home() {
         <title>Modern Tailwind Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="relative h-screen bg-black">
+      <div className="relative bg-black">
         {/* Header with logo and icons */}
 
         <section id="device">
@@ -107,6 +109,12 @@ export default function Home() {
         </section>
         <section id="productfeature">
           <ProductFeatures />
+        </section>
+        <section id="milestone">
+          <Milestone />
+        </section>
+        <section id="footer">
+          <Footer />
         </section>
       </div>
     </>
