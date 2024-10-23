@@ -151,15 +151,15 @@ function CardContent({
             transition: "transform 0.5s ease-in-out",
             transformOrigin: transformOrigin, // 使用外部传入的锚点
           }}
-          onMouseEnter={(e) => {
-            (e.currentTarget as HTMLImageElement).style.transform =
-              "scale(1.2)";
-            (e.currentTarget as HTMLImageElement).style.opacity = "1";
-          }}
-          onMouseLeave={(e) => {
-            (e.currentTarget as HTMLImageElement).style.transform = "scale(1)";
-            (e.currentTarget as HTMLImageElement).style.opacity = "1";
-          }}
+          // onMouseEnter={(e) => {
+          //   (e.currentTarget as HTMLImageElement).style.transform =
+          //     "scale(1.2)";
+          //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
+          // }}
+          // onMouseLeave={(e) => {
+          //   (e.currentTarget as HTMLImageElement).style.transform = "scale(1)";
+          //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
+          // }}
         />
       </div>
 
