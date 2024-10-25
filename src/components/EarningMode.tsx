@@ -184,7 +184,7 @@ export default function EarningMode() {
       </svg>
 
       {/* Animated elements following the paths */}
-      {/* <CurveElement
+      <CurveElement
         id="element1"
         pathId="path1"
         offsetTime={0.4}
@@ -260,7 +260,7 @@ export default function EarningMode() {
         delay2={2.2}
         imagePath="/images/icon_coin1.png"
         size={160}
-      /> */}
+      />
     </div>
   );
 }

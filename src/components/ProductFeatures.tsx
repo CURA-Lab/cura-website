@@ -26,16 +26,16 @@ export default function ProductFeatures() {
                   transition: "transform 0.5s ease-in-out",
                   transformOrigin: "top left",
                 }}
-                // onMouseEnter={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1.2)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
-                // onMouseLeave={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1.2)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
               />
             </div>
             <div
@@ -69,16 +69,16 @@ export default function ProductFeatures() {
                 style={{
                   transition: "transform 0.5s ease-in-out",
                 }}
-                // onMouseEnter={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1.2)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
-                // onMouseLeave={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1.2)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
               />
             </div>
             <div
@@ -115,16 +115,16 @@ export default function ProductFeatures() {
                 style={{
                   transition: "transform 0.5s ease-in-out",
                 }}
-                // onMouseEnter={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1.2)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
-                // onMouseLeave={(e) => {
-                //   (e.currentTarget as HTMLImageElement).style.transform =
-                //     "scale(1)";
-                //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                // }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1.2)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.transform =
+                    "scale(1)";
+                  (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                }}
               />
             </div>
             <div
@@ -159,16 +159,16 @@ export default function ProductFeatures() {
                     transition: "transform 0.5s ease-in-out",
                     transformOrigin: "top left",
                   }}
-                  // onMouseEnter={(e) => {
-                  //   (e.currentTarget as HTMLImageElement).style.transform =
-                  //     "scale(1.2)";
-                  //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                  // }}
-                  // onMouseLeave={(e) => {
-                  //   (e.currentTarget as HTMLImageElement).style.transform =
-                  //     "scale(1)";
-                  //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                  // }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.transform =
+                      "scale(1.2)";
+                    (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.transform =
+                      "scale(1)";
+                    (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                  }}
                 />
               </div>
               <div
@@ -201,16 +201,16 @@ export default function ProductFeatures() {
                     transition: "transform 0.5s ease-in-out",
                     transformOrigin: "top left",
                   }}
-                  // onMouseEnter={(e) => {
-                  //   (e.currentTarget as HTMLImageElement).style.transform =
-                  //     "scale(1.2)";
-                  //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                  // }}
-                  // onMouseLeave={(e) => {
-                  //   (e.currentTarget as HTMLImageElement).style.transform =
-                  //     "scale(1)";
-                  //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-                  // }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.transform =
+                      "scale(1.2)";
+                    (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.transform =
+                      "scale(1)";
+                    (e.currentTarget as HTMLImageElement).style.opacity = "1";
+                  }}
                 />
               </div>
               <div
@@ -246,16 +246,16 @@ export default function ProductFeatures() {
               style={{
                 transition: "transform 0.5s ease-in-out",
               }}
-              // onMouseEnter={(e) => {
-              //   (e.currentTarget as HTMLImageElement).style.transform =
-              //     "scale(1.2)";
-              //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-              // }}
-              // onMouseLeave={(e) => {
-              //   (e.currentTarget as HTMLImageElement).style.transform =
-              //     "scale(1)";
-              //   (e.currentTarget as HTMLImageElement).style.opacity = "1";
-              // }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLImageElement).style.transform =
+                  "scale(1.2)";
+                (e.currentTarget as HTMLImageElement).style.opacity = "1";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLImageElement).style.transform =
+                  "scale(1)";
+                (e.currentTarget as HTMLImageElement).style.opacity = "1";
+              }}
             />
           </div>
           <div

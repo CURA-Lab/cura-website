@@ -92,14 +92,14 @@ function MilestoneCard({
       style={{
         boxShadow: "none", // 初始没有阴影
       }}
-      // onMouseEnter={(e) => {
-      //   (
-      //     e.currentTarget as HTMLDivElement
-      //   ).style.boxShadow = `0 0 15px ${color}`; // hover 时显示阴影
-      // }}
-      // onMouseLeave={(e) => {
-      //   (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; // 离开时移除阴影
-      // }}
+      onMouseEnter={(e) => {
+        (
+          e.currentTarget as HTMLDivElement
+        ).style.boxShadow = `0 0 15px ${color}`; // hover 时显示阴影
+      }}
+      onMouseLeave={(e) => {
+        (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; // 离开时移除阴影
+      }}
     >
       {/* 标题部分 */}
       <div className="flex items-center mb-4">

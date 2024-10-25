@@ -261,29 +261,29 @@ export default function AppFeature() {
           animation: slide-1 8s ease-out infinite;
         }
 
-        // @keyframes slide-1 {
-        //   0% {
-        //     transform: translate(0, 250px) rotate(0deg);
-        //   }
-        //   50% {
-        //     transform: translate(0px, -250px) rotate(0deg);
-        //   }
-        //   100% {
-        //     transform: translate(0, 250px) rotate(0deg);
-        //   }
-        // }
+        @keyframes slide-1 {
+          0% {
+            transform: translate(0, 250px) rotate(0deg);
+          }
+          50% {
+            transform: translate(0px, -250px) rotate(0deg);
+          }
+          100% {
+            transform: translate(0, 250px) rotate(0deg);
+          }
+        }
 
-        // @keyframes slide-2 {
-        //   0% {
-        //     transform: translate(0, -250px) rotate(0deg);
-        //   }
-        //   50% {
-        //     transform: translate(0px, 250px) rotate(0deg);
-        //   }
-        //   100% {
-        //     transform: translate(0, -250px) rotate(0deg);
-        //   }
-        // }
+        @keyframes slide-2 {
+          0% {
+            transform: translate(0, -250px) rotate(0deg);
+          }
+          50% {
+            transform: translate(0px, 250px) rotate(0deg);
+          }
+          100% {
+            transform: translate(0, -250px) rotate(0deg);
+          }
+        }
       `}</style>
     </div>
   );
