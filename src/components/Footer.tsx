@@ -54,6 +54,9 @@ export default function Footer() {
             width={30}
             height={30}
             className="hover:opacity-50 cursor-pointer"
+            onClick={() => {
+              window.open("https://x.com/curacollar", "_blank");
+            }}
           />
           <Image
             src="/images/icon_telegram.png"
@@ -61,6 +64,9 @@ export default function Footer() {
             width={30}
             height={30}
             className="hover:opacity-50 cursor-pointer"
+            onClick={() => {
+              window.open("https://t.me/CURAOFFICAL", "_blank");
+            }}
           />
           <Image
             src="/images/icon_gitbook.png"
@@ -68,6 +74,12 @@ export default function Footer() {
             width={30}
             height={30}
             className="hover:opacity-50 cursor-pointer"
+            onClick={() => {
+              window.open(
+                "https://cura-lab.gitbook.io/cura-lab-docs/",
+                "_blank"
+              );
+            }}
           />
           <Image
             src="/images/icon_instagram.png"
